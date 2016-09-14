@@ -13,13 +13,15 @@ If you have a localinstall of phpcs you might have a newer version installed or 
 * Then run
 
 ```
-docker run -it --rm -v $(pwd):/opt/src -w /opt joomla-projects/docker-joomla-cms-phpcs
+docker run -it --rm -v $(pwd):/opt/src -w /opt joomlaprojects/docker-joomla-cms-phpcs
 ```
+
 That's it. 
 
 For convinience you can create a alias e.g. 
 
 ```
-alias jcs='docker run -it --rm -v $(pwd):/opt/src -w /opt joomla-projects/docker-joomla-cms-phpcs'
+alias jcs='docker run -it --rm -v $(pwd):/opt/src -w /opt joomlaprojects/docker-joomla-cms-phpcs'
 ```
+
 and then you can run jcs and code styles are checked

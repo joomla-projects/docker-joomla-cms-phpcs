@@ -9,7 +9,7 @@ If you have a local install of phpcs you might have a newer version installed or
 ## How to use
 
 * Install docker on your local machine
-* Go into you development directory
+* Go into your development directory
 * Then run
 
 ```

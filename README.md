@@ -1,3 +1,9 @@
+**Since Joomla version 4.2, Joomla uses the PSR-12 coding standard.**
+
+**THIS HERE IS NO LONGER NEEDED**
+
+---
+
 # docker-joomla-cms-phpcs
 
 Docker Container for running phpcs code style checks on a joomla-cms repository
